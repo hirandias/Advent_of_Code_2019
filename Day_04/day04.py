@@ -34,11 +34,7 @@ def larger_group(num):
 def password_count1(in1, in2):
     count = 0
     for psw in range(in1, in2+1):
-        if len(str(psw)) != 6:
-            continue
-        elif not same_adjacent_digits(psw):
-            continue
-        elif not never_decrease(psw):
+        if len(str(psw)) != 6 or not same_adjacent_digits(psw) or not never_decrease(psw):
             continue
         count += 1
     return count
@@ -47,11 +43,7 @@ def password_count1(in1, in2):
 def password_count2(in1, in2):
     count = 0
     for psw in range(in1, in2+1):
-        if len(str(psw)) != 6:
-            continue
-        elif not never_decrease(psw):
-            continue
-        elif larger_group(psw):
+        if len(str(psw)) != 6 or not never_decrease(psw) or larger_group(psw):
             continue
         count += 1
     return count
