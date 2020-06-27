@@ -23,7 +23,7 @@ Before you use your map data to plot a course, you need to make sure it wasn't c
 Whenever A orbits B and B orbits C, then A indirectly orbits C. This chain can be any number of objects long: if A orbits B, B orbits C, and C orbits D, then A indirectly orbits D.
 
 For example, suppose you have the following map:
-
+<pre>
 COM)B
 B)C
 C)D
@@ -37,7 +37,7 @@ J)K
 K)L
 Visually, the above map of orbits looks like this:
 
-<pre>
+
         G - H       J - K - L
        /           /
 COM - B - C - D - E - F
@@ -65,7 +65,7 @@ Now, you just need to figure out how many orbital transfers you (YOU) need to ta
 You start at the object YOU are orbiting; your destination is the object SAN is orbiting. An orbital transfer lets you move from any object to an object orbiting or orbited by that object.
 
 For example, suppose you have the following map:
-
+<pre>
 COM)B
 B)C
 C)D
@@ -81,7 +81,7 @@ K)YOU
 I)SAN
 Visually, the above map of orbits looks like this:
 
-<pre>
+
                           YOU
                          /
         G - H       J - K - L
