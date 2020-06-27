@@ -35,6 +35,7 @@ D)I
 E)J
 J)K
 K)L
+
 Visually, the above map of orbits looks like this:
 
 
@@ -79,6 +80,7 @@ J)K
 K)L
 K)YOU
 I)SAN
+
 Visually, the above map of orbits looks like this:
 
 
