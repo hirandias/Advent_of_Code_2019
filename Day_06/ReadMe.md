@@ -93,14 +93,15 @@ COM - B - C - D - E - F
                 I - SAN
 </pre>
 In this example, YOU are in orbit around K, and SAN is in orbit around I. To move from K to I, a minimum of 4 orbital transfers are required:
-
+<pre>
 K to J
 J to E
 E to D
 D to I
+
 Afterward, the map of orbits looks like this:
 
-<pre>
+
         G - H       J - K - L
        /           /
 COM - B - C - D - E - F
