@@ -41,11 +41,15 @@ def decode_image(layers):
                 elif layers[j][i] == '1':
                     decoded.append('#')
                     break
+    return decoded
 
+
+def print_image(layers):
+    decoded = decode_image(layers)
     for k in range(0, len(decoded), 25):
         for m in range(25):
             print(decoded[k+m], end='')
         print('')
 
 
-decode_image(image_layers)
+print_image(image_layers)
